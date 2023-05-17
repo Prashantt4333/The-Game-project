@@ -46,9 +46,9 @@ const Register = () => {
                 </Form.Group>
                 <Row className='text-center '>
                     <Col>
-                        <Button className=' rounded-0 pt-2 pb-2 border-0 w-100' type="button" style={{background:"#009688"}}>
+                        <Link to="/login" className='text-decoration-none text-white rounded-0 pt-2 pb-2 border-0 w-100' type="button" style={{background:"#009688"}}>
                             Register
-                        </Button>
+                        </Link>
                     </Col>
                 </Row>
             </Form>

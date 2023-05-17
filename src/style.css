@@ -10,7 +10,8 @@ header div.card{
 
 }
 main{
-    min-height: 520px;
+    min-height: 560px;
+    margin-top:"500px";
 }
 footer {
     min-height:50px ;
@@ -35,6 +36,22 @@ footer {
 .card span{
     color: orange;
 }
+.info_right{
+    
+    border: 5px solid #fff;
+    background-color: #fff;
+    
+}
+
+@media (max-width: 600px) {
+    .main-div {
+      height: 200px !important;
+    }
+
+}
+
+
+
 /* .arrow{
     height: 90%;
 } */

@@ -5,6 +5,7 @@ import Register from "./pages/Register";
 import Detail from "./pages/Detail";
 import Search from "./pages/Search";
 import Layout from "./component/Layout";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="register" element={<Register />}></Route>
           <Route path="detail" element={<Detail />}></Route>
           <Route path="search" element={<Search />}></Route>
+          <Route path="profile" element={<Profile />}></Route>
         </Route>
         <Route path="login" element={<Login />}></Route>
       </Routes>

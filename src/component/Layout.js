@@ -2,15 +2,15 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import { Outlet } from 'react-router-dom';
-
+import "../style.css"
 const Layout = () => {
     return (
         <>
-            <Header></Header>
-            <main>
-                <Outlet ></Outlet>
-            </main>
-            <Footer ></Footer>
+            <Header />
+                <main style={{height:"50px"}} className='overflow-auto main-div'>
+                    <Outlet />
+                </main>
+            <Footer />
 
         </>      
     );

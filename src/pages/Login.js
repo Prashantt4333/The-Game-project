@@ -19,9 +19,9 @@ const Login = () => {
                 </Form.Group>
                 <Row className='text-center '>
                     <Col>
-                        <Button className='w-25 rounded-0 pt-2 pb-2 border-0 shadow mb-3 mt-3' type="button" style={{background:"#009688"}}>
+                        <Link to="/profile" className='text-decoration-none text-white w-25 rounded-0 pt-2 pb-2 border-0 shadow mb-3 mt-3' type="button" style={{background:"#009688"}}>
                            Login
-                        </Button>
+                        </Link>
                     </Col>
                 </Row>
                 <Row className='text-center '>

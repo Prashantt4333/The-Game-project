@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
       <>
-        <Row className='m-0 '  style={{background:"#fafafa"}}>
+        <Row className='m-0 position-relative '  style={{background:"#fafafa"}}>
                 <Col className=''>
-                    <Carousel className='border bg-danger my-slider  mb-3 shadow-sm' style={{height:"300px"}}>
+                    <Carousel className='border my-slider  mb-3 shadow-sm' style={{height:"300px"}}>
                         <Carousel.Item>
                             <img className=""
                             src="https://ladbazaronline.com/wp-content/uploads/2021/01/eachpromo-ladbazar-online-banner-1.png"
