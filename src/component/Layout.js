@@ -10,7 +10,7 @@ const Layout = () => {
             <main>
                 <Outlet ></Outlet>
             </main>
-            <Footer ></Footer>
+            <Footer className="position-fixed"></Footer>
 
         </>      
     );
