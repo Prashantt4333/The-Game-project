@@ -6,6 +6,7 @@ import Detail from "./pages/Detail";
 import Search from "./pages/Search";
 import Layout from "./component/Layout";
 import Profile from "./pages/Profile";
+import Win from "./pages/Win";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="detail" element={<Detail />}></Route>
           <Route path="search" element={<Search />}></Route>
           <Route path="profile" element={<Profile />}></Route>
+          <Route path="win" element={<Win />}></Route>
         </Route>
         <Route path="login" element={<Login />}></Route>
       </Routes>

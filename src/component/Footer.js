@@ -6,8 +6,8 @@ import Navigation from './Navigation';
 const Footer = () => {
     return (
         <>
-           <footer >
-                <Navigation />
+           <footer style={{position:'fixed',left: "0",bottom:" 0",width: "100%",}} >
+                <Navigation  />
            </footer>
         </>
 

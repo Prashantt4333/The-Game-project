@@ -1,27 +1,25 @@
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
-import { Col, Row } from "react-bootstrap";
+import {  Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const Profile = () => {
+const Profile = () => { 
+  
   return (
     <>
       <Row className="w-100 ps-3">
-        <Col className="">
-          <Link to="/register">
-            <Row className="mb-3">
-              <Col className="">
-                <img
-                  width={30}
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAADi0lEQVRoQ+2Zu2sUURTGvzvDCho1+AIRwYCgEAVFwRcWiqBoISjERgULiRiwSGbObMTCtVkkZ7YKilHQJiZiwDpioYWiFtFKwb9AFLELxGaOXJkJm81M9mYeyxoy5dw73zm/+93nXIUl8qglwoFlkHZzMpUj/f39623bviEi92q12q+8oFzXvZ1WMxUIEX0GsBfAF2benQcIEY0CuJhWMy2IRMkzcyqNRngiyqQZm0S5XO4UkYqIHAtbPo9Gz6rxEcDbUqnE1Wr1R6PYPJByuXwkCIJ3WaMW+X0QBLtqtdrX+hhzQPr6+lZ3dHR8A7ClyERy0P4yMzOzf3h4+E+kNQeEiK4AeBIW/haRZwAm5tmo1OvonYgczyExqCaaSqkDInJLKbVWx1NKXR8aGnqQBPIIwNWw8CkzX4pLkoh+AtgE4Dczb8gDxETTdd1JpdSpMN4oM19OAtEtrQc49GD3ff9OXJKe550XEb2OjPi+r13L/AwMDOywbXtkIU29ziilKmGwN8w82xsau5YRSOasUwosgyR1rZQNmvmz1I5kjlyAwKLHSAE55C1pNtjzjlqAnhmInn4LCJ5ZctFda6F1JHM2KQVSD/ZWz1qu6x7zff9NEmfbg/T09NhdXV3jAHoAfGTmQ3EwbQ1SqVRWTE9P623OuSj5uG26LmtbkN7e3lWdnZ3aibN1Dkww84X/xhHP89aEx4QzJhBt6cjg4OC6IAjGRSTakus8E52IQHPvWkQ0AqA3zRTtOM5Gy7L0mDhh6kQhIHqKbDjNJZ5bGvs5EW0GoMfEvzNP+DR1ohAQLUpEHwAcjAKYOON53lbdnZRSR9NAFDJGHMfptizrOYBdJjCO42yzLEs7cTgtRCEgWtQUhoi2AxgDcCALRGEgJjDhOVw7sS8rRKEgC8GIyIRt22MisicPiMJBkmD0z+j6MWSyTsSt5vXvcl9H4gLGjZm8nChs+k1quQQY43WiLRyJkghhHgPYCeBV0gawWdJx5S3pWmkSW+w3yyCtPuo2c8jYEc/zbopINRTUN0R9zPypWYBWlIeL64u6Kf0uM9+MYjf+xD4J4GVdYvoi5X0rEjWIoTepK+vqnWbmyVgQ/ZKINPXs+dkgQMurxO22Yy9Dieg6gPstz9As4ENmvtZYNfFqWZ8fROSwiHSb6RdbSyk1VSqVpqrV6ve4SLnckReLYKa+DGLWTq2rtWQc+Qu79LFRZ28khgAAAABJRU5ErkJggg=="
-                  alt=""
-                />
-                <span className="ps-3">Sign In</span>
-                <FontAwesomeIcon className="float-end" icon={faChevronDown} />
-              </Col>
-            </Row>
-          </Link>
+        <Col className="" >
+          <Row className="mb-3">
+            <Col className="">
+              <img
+                width={30}
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAADi0lEQVRoQ+2Zu2sUURTGvzvDCho1+AIRwYCgEAVFwRcWiqBoISjERgULiRiwSGbObMTCtVkkZ7YKilHQJiZiwDpioYWiFtFKwb9AFLELxGaOXJkJm81M9mYeyxoy5dw73zm/+93nXIUl8qglwoFlkHZzMpUj/f39623bviEi92q12q+8oFzXvZ1WMxUIEX0GsBfAF2benQcIEY0CuJhWMy2IRMkzcyqNRngiyqQZm0S5XO4UkYqIHAtbPo9Gz6rxEcDbUqnE1Wr1R6PYPJByuXwkCIJ3WaMW+X0QBLtqtdrX+hhzQPr6+lZ3dHR8A7ClyERy0P4yMzOzf3h4+E+kNQeEiK4AeBIW/haRZwAm5tmo1OvonYgczyExqCaaSqkDInJLKbVWx1NKXR8aGnqQBPIIwNWw8CkzX4pLkoh+AtgE4Dczb8gDxETTdd1JpdSpMN4oM19OAtEtrQc49GD3ff9OXJKe550XEb2OjPi+r13L/AwMDOywbXtkIU29ziilKmGwN8w82xsau5YRSOasUwosgyR1rZQNmvmz1I5kjlyAwKLHSAE55C1pNtjzjlqAnhmInn4LCJ5ZctFda6F1JHM2KQVSD/ZWz1qu6x7zff9NEmfbg/T09NhdXV3jAHoAfGTmQ3EwbQ1SqVRWTE9P623OuSj5uG26LmtbkN7e3lWdnZ3aibN1Dkww84X/xhHP89aEx4QzJhBt6cjg4OC6IAjGRSTakus8E52IQHPvWkQ0AqA3zRTtOM5Gy7L0mDhh6kQhIHqKbDjNJZ5bGvs5EW0GoMfEvzNP+DR1ohAQLUpEHwAcjAKYOON53lbdnZRSR9NAFDJGHMfptizrOYBdJjCO42yzLEs7cTgtRCEgWtQUhoi2AxgDcCALRGEgJjDhOVw7sS8rRKEgC8GIyIRt22MisicPiMJBkmD0z+j6MWSyTsSt5vXvcl9H4gLGjZm8nChs+k1quQQY43WiLRyJkghhHgPYCeBV0gawWdJx5S3pWmkSW+w3yyCtPuo2c8jYEc/zbopINRTUN0R9zPypWYBWlIeL64u6Kf0uM9+MYjf+xD4J4GVdYvoi5X0rEjWIoTepK+vqnWbmyVgQ/ZKINPXs+dkgQMurxO22Yy9Dieg6gPstz9As4ENmvtZYNfFqWZ8fROSwiHSb6RdbSyk1VSqVpqrV6ve4SLnckReLYKa+DGLWTq2rtWQc+Qu79LFRZ28khgAAAABJRU5ErkJggg=="
+                alt=""
+              />
+              <span className="ps-3">Sign In</span>
+              <FontAwesomeIcon className="float-end" icon={faChevronDown} />
+            </Col>
+          </Row>
           <Row className="mb-3">
             <Col>
               <img

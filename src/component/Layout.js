@@ -7,7 +7,7 @@ const Layout = () => {
     return (
         <>
             <Header />
-                <main style={{height:"50px"}} className='overflow-auto main-div'>
+                <main style={{marginBottom:"100px"}}>
                     <Outlet />
                 </main>
             <Footer />
