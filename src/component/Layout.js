@@ -7,8 +7,8 @@ const Layout = () => {
     return (
         <>
             <Header />
-                <main style={{marginBottom:"100px"}}>
-                    <Outlet />
+                <main className="ps-3 pe-3" style={{marginBottom:"80px"}}>
+                   <Outlet />
                 </main>
             <Footer />
 

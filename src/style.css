@@ -10,8 +10,7 @@ header div.card{
 
 }
 main{
-    min-height: 560px;
-    margin-top:"500px";
+   
 }
 footer {
     min-height:50px ;
@@ -42,13 +41,11 @@ footer {
     background-color: #fff;
     
 }
-
-@media (max-width: 600px) {
-    .main-div {
-      height: 200px !important;
-    }
-
+.btnsize{
+    font-size: 14px !important;
 }
+
+
 
 
 
