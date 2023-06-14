@@ -3,7 +3,7 @@ import {  Card, Col, Row } from 'react-bootstrap';
 
 const Header = () => {
     return (
-      <header className="w-100 shadow mb-3  " style={{zIndex:"1"}}>
+      <header className="w-100 shadow mb-3  ">
         <Card className="p-0 w-100 ">
           <Card.Body className="p-1w-100">
             <Row>
